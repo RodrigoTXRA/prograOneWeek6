@@ -13,9 +13,9 @@ public class Manager extends Employee{
 	}
 	@Override
 	public void printDetails() {
-		printDetails();
+		super.printDetails();
 		
-		System.out.println("DIrect employee reporsts: ");
+		System.out.println("Direct employee reporsts: ");
 		
 		for (int i = 0; i < numReports; i++) {
 			System.out.println(directReports[i].getName() + 

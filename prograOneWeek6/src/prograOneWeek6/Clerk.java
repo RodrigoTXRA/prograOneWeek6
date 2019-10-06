@@ -34,7 +34,7 @@ public class Clerk extends Employee {
 	}
 	
 	public boolean assignDesk(String desk) {
-		//Check if location is valid fof Clerk
+		//Check if location is valid for Clerk
 		if(desk.startsWith(department) == false && 
 				desk.startsWith(super.getTeam()) == false) {
 			return false;

@@ -45,10 +45,10 @@ public class Employee {
 
 	// HELPER METHOD to print employee details
 	public void printDetails() {
-		System.out.printf("%-10s%s\n", "Name", name);
-		System.out.printf("%-10s%s\n", "Team", team);
-		System.out.printf("%-10s%s\n", "Position", position);
-		System.out.printf("%-10s%s\n", "Desk", deskNumber);
+		System.out.printf("%-10s%s\n", "Name:", name);
+		System.out.printf("%-10s%s\n", "Team:", team);
+		System.out.printf("%-10s%s\n", "Position:", position);
+		System.out.printf("%-10s%s\n", "Desk:", deskNumber);
 	}
 
 }

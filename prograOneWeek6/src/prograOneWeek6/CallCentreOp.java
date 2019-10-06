@@ -15,7 +15,7 @@ public class CallCentreOp extends Employee{
 	@Override
 	public void printDetails() { 	
 		super.printDetails();
-		System.out.println("Location " + location);
+		System.out.println("Location: " + location);
 		
 		System.out.printf("Calls assigned: ");
 		
